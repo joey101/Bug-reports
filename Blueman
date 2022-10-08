@@ -1,0 +1,76 @@
+blueman-applet 15.28.19 INFO     PluginManager:87 load_plugin: ['AuthAgent', 'AutoConnect', 'ConnectionNotifier', 'DBusService', 'DhcpClient', 'DisconnectItems', 'DiscvManager', 'ExitItem', 'GameControllerWakelock', 'KillSwitch', 'Menu', 'NMDUNSupport', 'NMPANSupport', 'NetUsage', 'Networking', 'PPPSupport', 'PowerManager', 'RecentConns', 'SerialManager', 'ShowConnected', 'StandardItems', 'StatusIcon', 'StatusNotifierItem', 'TransferService']
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.Menu.Menu'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.StatusIcon.StatusIcon'>
+blueman-applet 15.28.19 DEBUG    Base:60 do_g_properties_changed: /org/bluez/hci0 {'Address': '40:1C:83:27:DE:C1', 'AddressType': 'public', 'Name': 'localhost.localdomain', 'Alias': 'localhost.localdomain', 'Class': 8126732, 'Powered': True, 'Discoverable': True, 'DiscoverableTimeout': 0, 'Pairable': False, 'PairableTimeout': 0, 'Discovering': False, 'UUIDs': ['00001133-0000-1000-8000-00805f9b34fb', '0000110e-0000-1000-8000-00805f9b34fb', '00001105-0000-1000-8000-00805f9b34fb', '00001132-0000-1000-8000-00805f9b34fb', '00001200-0000-1000-8000-00805f9b34fb', '00001104-0000-1000-8000-00805f9b34fb', '00001108-0000-1000-8000-00805f9b34fb', '0000110c-0000-1000-8000-00805f9b34fb', '00001801-0000-1000-8000-00805f9b34fb', '0000112f-0000-1000-8000-00805f9b34fb', '0000110b-0000-1000-8000-00805f9b34fb', '0000180a-0000-1000-8000-00805f9b34fb', '00001800-0000-1000-8000-00805f9b34fb', '0000111f-0000-1000-8000-00805f9b34fb', '0000110a-0000-1000-8000-00805f9b34fb', '00001106-0000-1000-8000-00805f9b34fb', '00001112-0000-1000-8000-00805f9b34fb', '0000111e-0000-1000-8000-00805f9b34fb'], 'Modalias': 'usb:v1D6Bp0246d0541', 'Roles': ['central', 'peripheral']}
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.AuthAgent.AuthAgent'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.DBusService.DBusService'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.AutoConnect.AutoConnect'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.ConnectionNotifier.ConnectionNotifier'>
+blueman-applet 15.28.19 WARNING  PluginManager:151 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.DisconnectItems.DisconnectItems'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.DiscvManager.DiscvManager'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.ExitItem.ExitItem'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.GameControllerWakelock.GameControllerWakelock'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.PowerManager.PowerManager'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.KillSwitch.KillSwitch'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.NMDUNSupport.NMDUNSupport'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.NMPANSupport.NMPANSupport'>
+blueman-applet 15.28.19 WARNING  PluginManager:151 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.Networking.Networking'>
+blueman-applet 15.28.19 INFO     Networking:35 load_nap_settings: Loading NAP settings
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.RecentConns.RecentConns'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.SerialManager.SerialManager'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.ShowConnected.ShowConnected'>
+blueman-applet 15.28.19 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.StandardItems.StandardItems'>
+blueman-applet 15.28.20 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.StatusNotifierItem.StatusNotifierItem'>
+blueman-applet 15.28.20 INFO     PluginManager:160 __load_plugin: loading <class 'blueman.plugins.applet.TransferService.TransferService'>
+blueman-applet 15.28.20 INFO     KillSwitch:106 io_event  : killswitch registered 0
+blueman-applet 15.28.20 INFO     KillSwitch:122 io_event  : State: True
+blueman-applet 15.28.20 INFO     PowerManager:179 update_power_state: off False | foff False | on True | current state True | new state True
+blueman-applet 15.28.20 INFO     KillSwitch:85 _on_connman_vanished: net.connman vanished
+blueman-applet 15.28.20 INFO     KillSwitch:106 io_event  : killswitch registered 2
+blueman-applet 15.28.20 INFO     KillSwitch:122 io_event  : State: True
+blueman-applet 15.28.20 INFO     PowerManager:179 update_power_state: off False | foff False | on True | current state True | new state True
+blueman-applet 15.28.20 INFO     Applet:63 _on_dbus_name_appeared: org.bluez :1.8
+blueman-applet 15.28.20 INFO     Functions:114 launch    : Gtk eventtime is 0, not using LaunchContext
+blueman-applet 15.28.20 INFO     BluezAgent:56 register_agent: Register Agent
+blueman-applet 15.28.20 DEBUG    Base:60 do_g_properties_changed: /org/bluez/hci0/dev_38_18_4C_3D_DE_B5 {'Address': '38:18:4C:3D:DE:B5', 'AddressType': 'public', 'Name': 'WH-1000XM3', 'Alias': 'WH-1000XM3', 'Paired': True, 'Bonded': True, 'Trusted': True, 'Blocked': False, 'LegacyPairing': False, 'Connected': False, 'UUIDs': ['00000000-deca-fade-deca-deafdecacaff', '00001108-0000-1000-8000-00805f9b34fb', '0000110b-0000-1000-8000-00805f9b34fb', '0000110c-0000-1000-8000-00805f9b34fb', '0000110e-0000-1000-8000-00805f9b34fb', '0000111e-0000-1000-8000-00805f9b34fb', '00001200-0000-1000-8000-00805f9b34fb', '7b265b0e-2232-4d45-bef4-bb8ae62f813d', '81c2e72a-0591-443e-a1ff-05f988593351', '931c7e8a-540f-4686-b798-e8df0a2ad9f7', '96cc203e-5068-46ad-b32d-e316f5e069ba', 'b9b213ce-eeab-49e4-8fd9-aa478ed1b26b', 'f8d1fbe4-7966-4334-8024-ff96c9330e15'], 'Modalias': 'usb:v054Cp0CD3d0452', 'Adapter': '/org/bluez/hci0', 'ManufacturerData': {301: [4, 0, 1, 49, 0, 1, 225, 55, 13, 197, 0, 96, 208, 0, 0, 0, 0, 0, 0]}, 'ServicesResolved': False}
+blueman-applet 15.28.20 INFO     Networking:71 set_nap   : set nap False
+blueman-applet 15.28.20 INFO     TransferService:234 _on_dbus_name_appeared: org.bluez.obex :1.314
+blueman-applet 15.28.20 DEBUG    Base:60 do_g_properties_changed: /org/bluez/hci0 {'Pairable': True}
+blueman-applet 15.28.20 DEBUG    DiscvManager:92 on_adapter_property_changed: prop Pairable True
+blueman-applet 15.28.20 INFO     ShowConnected:50 enumerate_connections: Found 0 existing connections
+blueman-applet 15.28.20 INFO     AgentManager:17 on_registered: /org/bluez/obex/agent/blueman
+blueman-applet 15.28.21 INFO     PowerManager:140 request_power_state: Requesting True
+blueman-applet 15.28.21 INFO     KillSwitch:138 on_power_state_change_requested: True
+blueman-applet 15.28.21 DEBUG    KillSwitch:151 on_power_state_change_requested: Using mechanism to set state: True
+blueman-applet 15.28.21 INFO     PowerManager:125 check     : callbacks done
+blueman-applet 15.28.21 INFO     PowerManager:96 set_adapter_state: True
+blueman-applet 15.28.21 INFO     PowerManager:179 update_power_state: off False | foff False | on True | current state True | new state True
+blueman-applet 15.28.31 INFO     RecentConns:112 notify    : <Device.Device object at 0x7efe897ba800 (blueman+bluez+Device+Device at 0x56361d9e0a50)> 00000000-0000-0000-0000-000000000000
+blueman-applet 15.28.42 DEBUG    Base:60 do_g_properties_changed: /org/bluez/hci0/dev_38_18_4C_3D_DE_B5 {'Connected': True, 'Name': 'LE_WH-1000XM3', 'Alias': 'LE_WH-1000XM3'}
+blueman-applet 15.28.43 DEBUG    Base:60 do_g_properties_changed: /org/bluez/hci0/dev_38_18_4C_3D_DE_B5 {'Class': 2360324, 'Icon': 'audio-headset', 'Name': 'WH-1000XM3', 'Alias': 'WH-1000XM3'}
+blueman-applet 15.28.44 DEBUG    Base:60 do_g_properties_changed: /org/bluez/hci0/dev_38_18_4C_3D_DE_B5 {'UUIDs': ['00000000-deca-fade-deca-deafdecacaff', '00001108-0000-1000-8000-00805f9b34fb', '0000110b-0000-1000-8000-00805f9b34fb', '0000110c-0000-1000-8000-00805f9b34fb', '0000110e-0000-1000-8000-00805f9b34fb', '0000111e-0000-1000-8000-00805f9b34fb', '00001200-0000-1000-8000-00805f9b34fb', '00001800-0000-1000-8000-00805f9b34fb', '00001801-0000-1000-8000-00805f9b34fb', '0000fe03-0000-1000-8000-00805f9b34fb', '5b833e05-6bc7-4802-8e9a-723ceca4bd8f', '5b833e06-6bc7-4802-8e9a-723ceca4bd8f', '69a7f243-e52f-4443-a7f9-cb4d053c74d6', '7b265b0e-2232-4d45-bef4-bb8ae62f813d', '81c2e72a-0591-443e-a1ff-05f988593351', '91c10d9c-aaef-42bd-b6d6-8a648c19213d', '931c7e8a-540f-4686-b798-e8df0a2ad9f7', '96cc203e-5068-46ad-b32d-e316f5e069ba', 'b9b213ce-eeab-49e4-8fd9-aa478ed1b26b', 'f8d1fbe4-7966-4334-8024-ff96c9330e15', 'fe59bfa8-7fe3-4a05-9d94-99fadc69faff'], 'ServicesResolved': True}
+blueman-applet 15.28.44 DEBUG    Base:60 do_g_properties_changed: /org/bluez/hci0/dev_38_18_4C_3D_DE_B5 {'Name': 'LE_WH-1000XM3', 'Alias': 'LE_WH-1000XM3'}
+^Cblueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.TransferService.TransferService object at 0x7efe897aa620>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.StatusNotifierItem.StatusNotifierItem object at 0x7efe897aa6e0>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.StandardItems.StandardItems object at 0x7efe897aa110>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.ShowConnected.ShowConnected object at 0x7efe897aa0e0>
+blueman-applet 15.29.38 DEBUG    SerialManager:50 on_delete : Terminating any running scripts
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.SerialManager.SerialManager object at 0x7efe897aa0b0>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.RecentConns.RecentConns object at 0x7efe897a9e10>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.Networking.Networking object at 0x7efe897a9cf0>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.NMPANSupport.NMPANSupport object at 0x7efe897a9d80>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.NMDUNSupport.NMDUNSupport object at 0x7efe897a9db0>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.KillSwitch.KillSwitch object at 0x7efe897a9b70>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.PowerManager.PowerManager object at 0x7efe897a9ba0>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.GameControllerWakelock.GameControllerWakelock object at 0x7efe897a9bd0>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.ExitItem.ExitItem object at 0x7efe897a9840>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.DiscvManager.DiscvManager object at 0x7efe897a9810>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.DisconnectItems.DisconnectItems object at 0x7efe897a97b0>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.ConnectionNotifier.ConnectionNotifier object at 0x7efe897a9780>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.AutoConnect.AutoConnect object at 0x7efe897a95d0>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.DBusService.DBusService object at 0x7efe897a9630>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.AuthAgent.AuthAgent object at 0x7efe8bb4a7a0>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <StatusIcon.StatusIcon object at 0x7efe8979ad40 (blueman+plugins+applet+StatusIcon+StatusIcon at 0x56361d7daf20)>
+blueman-applet 15.29.38 DEBUG    BasePlugin:63 _on_plugin_delete: Deleting plugin instance <blueman.plugins.applet.Menu.Menu object at 0x7efe8bb89720>
